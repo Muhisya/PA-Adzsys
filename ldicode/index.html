@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dicoding</title>
+  </head>
+  <body>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        font-family: "Quicksand", sans-serif;
+      }
+
+      header {
+        background-color: forestgreen;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 30px;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .logo {
+        margin-left: 5%;
+        color: white;
+      }
+
+      .list {
+        margin-right: 5%;
+        color: white;
+        ul {
+          list-style: none;
+          display: flex;
+        }
+        a {
+          color: white;
+          text-decoration: none;
+        }
+        li {
+          font-weight: 700;
+          margin-left: 40px;
+          margin-right: 40px;
+        }
+      }
+
+      article {
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-left: 2px solid #ddd;
+        border-radius: 7px;
+        margin: 30px;
+      }
+
+      main {
+        justify-content: space-around;
+        padding: 40px;
+        display: flex;
+        
+      }
+
+      aside {
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-left: 2px solid #ddd;
+        border-radius: 7px;
+        height: 535px;
+        img{
+          border-radius: 7px;
+          float: left;
+          margin-right: 15px;
+        }
+      }
+
+      footer {
+        background-color: forestgreen;
+        padding: 15px;
+        color: white;
+        font-size: 17px;
+        text-align: center;
+        padding: 30px;
+      }
+    </style>
+    <header>
+      <div class="logo">
+        <h1>Dicoding</h1>
+      </div>
+      <div class="list">
+        <ul>
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>Contact</li></a>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div>
+        <article>
+          <div class="article">
+            <h1>Muhisya</h1>
+            <p>
+              Muhammad Hibban Syakir is a good man, and I'm making this article
+              with random text so I can finish by ease and more stuff until this text is longer and more visible. 
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="article">
+            <h1>Winter</h1>
+            <p>
+               Winer is the name of my cat he's cute!, and I'm making this article
+              with random text so I can finish by ease and more stuff until this text is longer and more visible. 
+            </p>
+          </div>
+        </article>
+      </div>
+      <div>
+        <aside>
+          <img src="orewa.jpg" width="400px" />
+          <p>A cat that wants some whiskas and a menacing vibes with his aura, his hunger trives with integrity</p>
+        </aside>
+      </div>
+    </main>
+    <footer>
+      <p>©Copyright 2024. Made with imagination - Project Akhir</p>
+    </footer>
+  </body>
+</html>
