@@ -57,7 +57,7 @@
 
 #navigation {
   /* background-color: aqua; */
-  z-index: 99;
+  z-index: 999;
   position: sticky;
   top: 0;
   /* background-color: #35374b; */
@@ -101,6 +101,10 @@
   li:hover {
     font-weight: bold;
   }
+}
+
+.hamb{
+  display: none;
 }
 
 .button-1 {
@@ -961,10 +965,6 @@ button:hover {
   }
 }
 
-#footer {
-  background-color: #344955;
-}
-
 #secara {
   padding-top: 150px;
   background-color: #344955;
@@ -1027,4 +1027,29 @@ button:hover {
   /* background-color: purple; */
   width: 35px;
   margin-left: 10px;
+}
+
+
+/*! Breakpoint Phone */
+@media only screen and (max-width: 745  px) {
+  #navigation{
+    z-index: 999;
+  }
+  .menu{
+    display: none;
+
+  }
+  .button-1{
+    display: none;  
+  }
+  .hamb{
+    display: block;
+  }
+  .img-ap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
 }
